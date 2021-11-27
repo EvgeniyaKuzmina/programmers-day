@@ -8,9 +8,9 @@ public class Praktikum {
         int year = scanner.nextInt();
 
         if (isLeapYear(year)) {
-            System.out.printf("Дата праздника: 12.09.%d", year);
+            System.out.printf("12.09.%d", year);
         } else {
-            System.out.printf("Дата праздника: 13.09.2%d", year);
+            System.out.printf("13.09.2%d", year);
         }
     }
 
